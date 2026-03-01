@@ -1,1 +1,2 @@
-pip install tensorflow nltk numpy scikit-learn flask colorama
+pip install nltk numpy scikit-learn flask colorama
+pip install tensorflow==2.13.1
