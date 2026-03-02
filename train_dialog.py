@@ -49,7 +49,7 @@ model.compile(loss="sparse_categorical_crossentropy",
 # Train using first token of response as label (simple approach)
 y = response_seq[:,0]
 
-model.fit(input_seq, y, epochs=200)
+model.fit(input_seq, y, epochs=10)
 
 # Save files
 model.save("dialog_model.keras")
