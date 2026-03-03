@@ -99,7 +99,7 @@ model.save("Model_Output/dialog_model.keras")
 encoder_model.save("Model_Output/encoder_model.keras")
 decoder_model.save("Model_Output/decoder_model.keras")
 
-with open("dialog_tokenizer.pkl", "wb") as f:
+with open("Model_Output/dialog_tokenizer.pkl", "wb") as f:
     pickle.dump(tokenizer, f)
 
 with open("Model_Output/input_len.pkl", "wb") as f:
