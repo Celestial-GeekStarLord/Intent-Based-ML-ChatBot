@@ -2,3 +2,6 @@ pip install nltk numpy scikit-learn flask colorama
 pip install tensorflow==2.13.1
 
 pip install transformers torch accelerate
+
+pip install matplotlib seaborn rouge-score nltk datasets pandas
+pip install rouge-score nltk datasets
